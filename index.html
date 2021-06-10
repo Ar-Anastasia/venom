@@ -1,53 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Venom 2 - сайт о фильме</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная - Venom 2</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="blood">
     <div class="container">
-<header class="header">
-<a href="/" class="logo-link">
-<img src="img/logo.png" width ="46" height = "71" alt="logo: venom" class="logo-image">
-</a>
-<nav class="nav">
+      <header class="header">
+        <a href="/" class="logo-link">
+          <img
+            src="img/logo.png"
+            width="46"
+            height="71"
+            alt="logo: venom"
+            class="logo-image"
+          />
+        </a>
+        <nav class="nav">
+          <ul class="nav__menu">
+            <li class="nav__menu-item">
+              <a class="nav__menu-link" href="about.html">о фильме</a>
+            </li>
+            <li class="nav__menu-item">
+              <a class="nav__menu-link" href="trailer.html">трейлер</a>
+            </li>
+            <li class="nav__menu-item">
+              <a class="nav__menu-link" href="actors.html">актеры</a>
+            </li>
+            <li class="nav__menu-item">
+              <a class="nav__menu-link" href="premier.html">премьера</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-    <ul class="nav__menu">
-        <li class="nav__menu-item">
-            <a class = "nav__menu-link" href="about.html">о фильме</a>
-        </li>
-        <li class="nav__menu-item">
-            <a class = "nav__menu-link" href="trailer.html">трейлер</a>
-        </li>
-        <li class="nav__menu-item">
-            <a class = "nav__menu-link" href="actors.html">актеры</a>
-        </li>
-        <li class="nav__menu-item">
-            <a class = "nav__menu-link" href="premier.html">премьера</a>
-        </li>
-    </ul>
-</nav>
+      <section class="film">
+        <div class="film__text">
+          <span class="film__date">16 сентября 2021 </span>
+          <img src="img/venom2.png" alt="logo: venom-2" class="film__logo" />
+          <p class="film__description">
+            В настырном журналисте по-прежнему живет симбиот. Том Харди в образе
+            обаятельного суперзлодея из комиксов Marvel.
+          </p>
+        </div>
 
-</header>
-
-
-<section class="film">
-    <div class="film__text">
-        <span class="film__date">16 сентября 2021 </span>
-            <img src="img/venom2.png" alt="logo: venom-2" class="film__logo">    
-        <p class="film__description">В настырном журналисте по-прежнему живет симбиот. Том Харди в образе обаятельного суперзлодея из комиксов Marvel.</p>
+        <div class="button-group">
+          <button class="button button-primary">
+            <img
+              src="img/play.png"
+              width="15"
+              alt="icon-play"
+              class="button-icon"
+            />
+            <span class="button-text">смотреть трейлер</span>
+          </button>
+          <a href="trailer.html" class="button button-link">
+            <img
+              src="img/tickets.png"
+              width="15"
+              alt="icon: Ticket"
+              class="button-tickets"
+            />
+            <span class="button-text">билеты на премьеру</span>
+          </a>
+        </div>
+      </section>
     </div>
- 
-
-
-
-</section>
-</div>
-</body>
+    <img src="img/venom.png" alt="photo: " class="venom" />
+  </body>
 </html>
